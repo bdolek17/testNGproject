@@ -45,10 +45,6 @@ public class Driver {
             driver = null;
         }
     }
-    public static void iFrame(){
-        driver.switchTo().frame(0);
-
-    }
 }
 
 
