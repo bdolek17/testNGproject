@@ -11,7 +11,7 @@ public class HomePage {
         PageFactory.initElements(Driver.getDriver(), this);
     }
 
-    @FindBy(partialLinkText =  "Login")
+    @FindBy(partialLinkText ="Login")
     public WebElement homePageLoginLink;
 
     @FindBy(id = "dropdown-basic-button")

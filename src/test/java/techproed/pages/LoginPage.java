@@ -1,5 +1,6 @@
 package techproed.pages;
 
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -23,7 +24,7 @@ public class LoginPage {
     @FindBy(xpath = "//div[text()='Bad credentials']")
     public WebElement alertMessage;
 
-    @FindBy(xpath = "//div[text()='email must be a valid email']")
+    @FindBy(xpath="//div[@role='alert']")
     public WebElement errorMessage;
 
 
